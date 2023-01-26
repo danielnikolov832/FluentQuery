@@ -37,7 +37,9 @@ public static class QueryToExpression
     }
 }
 
+#pragma warning disable S101 // Types should be named in PascalCase
 public class QueryForSQLBase<T>
+#pragma warning restore S101 // Types should be named in PascalCase
 {
     private readonly List<Expression<Func<T, bool>>> _rules;
 
