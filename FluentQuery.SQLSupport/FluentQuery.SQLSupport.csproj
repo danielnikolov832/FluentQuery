@@ -4,14 +4,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Title>FluentQuery.SQLSupport</Title>
+    <Copyright></Copyright>
+    <Description>A package for utilizing the FluentQuery package for SQL database queries</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentQuery.Core" Version="1.0.0" />
     <PackageReference Include="LinqKit" Version="1.2.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\FluentQuery.Core\FluentQuery.Core.csproj" />
   </ItemGroup>
 
 </Project>

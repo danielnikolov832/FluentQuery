@@ -4,6 +4,9 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>FluentQuery.Core</Title>
+    <Description>A utility for representing and executing multiple sorts of query operations in a more object-oriented and well designed manner</Description>
   </PropertyGroup>
 
 </Project>
